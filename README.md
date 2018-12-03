@@ -14,8 +14,8 @@ In a strategy pattern the main value is in being able to switch out different im
 The template pattern was then implemented, due to all the repeated code from the different strategies ```Play_template.rb``` class contains all the similar code that each strategy shares, This class is inherited by:
 - Play_randomly.rb
 - Play_linear.rb
-- Play_smart_ramdon.rb
-- Play_Binary_search.rb
+- Play_smart_randon.rb
+- Play_binary_search.rb
 
 The only functionalities that the strategies differ are: 
 - ``play``
