@@ -2,7 +2,7 @@
 Exercise 1: Template Method and Strategy
 
 # Journal
-In this excersize, cooming code smells were emmediately seen. 
+In this excersize, code smells were emmediately seen. 
 - Repeated code which violates DRY principle
 - Hard to extend and refactor the functionalities due to tight-coupling
 
