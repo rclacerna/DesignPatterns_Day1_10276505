@@ -7,4 +7,16 @@ In this excersize, cooming code smells were emmediately seen.
 - Hard to extend and refactor the functionalities due to tight-coupling
 
 The design patterns I've decided to implement are the Strategy pattern and Template pattern.
-First, the Strategy pattern was implemented so that we can dynamically switch between different classes when needed, this also makes our code much easier to extend and flexible when we would like to add another play strategy. 
+First, the Strategy pattern was implemented so that we can dynamically switch between different classes when needed, this also makes our code much easier to extend and flexible when we would like to add another play strategy.
+
+The template pattern was when implemented, due to all the repeated code from the different strategies ```Play_template.rb``` class contains all the similar code that each strategy shares, This class is inherited by:
+- Play_randomly.rb
+- Play_linear.rb
+- Play_smart_ramdon.rb
+- Play_Binary_search.rb
+
+The only functionalities that the strategies differ are: 
+- ``play``
+- ``guess_num``
+
+In whichcase they are left within the containing class
