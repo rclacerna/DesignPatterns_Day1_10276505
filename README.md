@@ -25,4 +25,4 @@ The only functionalities that the strategies differ are:
 
 In which-case they are left within the containing class.
 
-By using the Strategy pattern, I am able to significatnly reduce the repeated code on the ```main.rb``` class. 
+By using the Strategy pattern, I am able to significatnly reduce the repeated code on the ```main.rb``` class. Reduce repeacted code in the solution, and allow extensibility for new strategies
